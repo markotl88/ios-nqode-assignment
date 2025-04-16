@@ -63,12 +63,24 @@
 		4DDA097F2DAFE97E00061BC8 /* MockPortfolioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPortfolioService.swift; sourceTree = "<group>"; };
 		4DDA09802DAFE97E00061BC8 /* PortfolioViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewModelTests.swift; sourceTree = "<group>"; };
 		4DDA09892DAFED6500061BC8 /* PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DDA09962DAFED9100061BC8 /* Portfolio.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = Portfolio.xctestplan; path = PortfolioTests/Portfolio.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4DDF00032DAFEE2700617CBC /* Exceptions for "PortfolioTests" folder in "PortfolioTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Portfolio.xctestplan,
+			);
+			target = 4DDA09882DAFED6500061BC8 /* PortfolioTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4DDA098A2DAFED6500061BC8 /* PortfolioTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4DDF00032DAFEE2700617CBC /* Exceptions for "PortfolioTests" folder in "PortfolioTests" target */,
+			);
 			path = PortfolioTests;
 			sourceTree = "<group>";
 		};
@@ -219,7 +231,6 @@
 		4D38DA732DADB57F00888E60 = {
 			isa = PBXGroup;
 			children = (
-				4DDA09962DAFED9100061BC8 /* Portfolio.xctestplan */,
 				4D184AB42DAFD66C0084B403 /* Portfolio */,
 				4DDA09832DAFE98500061BC8 /* PortfolioTests */,
 				4DDA098A2DAFED6500061BC8 /* PortfolioTests */,

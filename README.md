@@ -1,7 +1,7 @@
 # ios-nqode-assignment
-nQode Portfolio assessment task
+nQode Portfolio technical assessment
 
-The assessment has been completed, including the bonus task.
+The assignment has been completed, including the bonus task.
 
 The PricingSimulationService handles positions and balance calculation/updates. It seems that initial (JSON) value for netValue in the balance might not be accurate, but I assumed this was not critical.
 

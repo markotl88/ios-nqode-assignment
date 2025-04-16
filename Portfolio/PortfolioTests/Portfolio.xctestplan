@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "29CAA658-3A62-489E-980C-4C8AB60F19FD",
+      "id" : "1D38F8D7-052A-48D0-9EBD-74248138E757",
       "name" : "Configuration 1",
       "options" : {
 
@@ -15,7 +15,7 @@
     {
       "target" : {
         "containerPath" : "container:Portfolio.xcodeproj",
-        "identifier" : "4D38DA912DADB58000888E60",
+        "identifier" : "4DDA09882DAFED6500061BC8",
         "name" : "PortfolioTests"
       }
     }
